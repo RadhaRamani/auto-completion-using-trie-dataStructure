@@ -43,7 +43,7 @@ class Trie
 		words_selected=new String[109576];
 		letters=new char[100];
 		try{
-			InputStream fis=new FileInputStream("D:/govind/JAVA PRGMS/031/dict.txt");
+			InputStream fis=new FileInputStream("dict.txt");
 			InputStreamReader isr=new InputStreamReader(fis);
 			BufferedReader br=new BufferedReader(isr);
 			String line;
